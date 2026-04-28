@@ -1,0 +1,28 @@
+# ===== GRA Multiverse Final Configuration =====
+multiverse:
+  levels: 2                 # число уровней иерархии (0 и 1)
+  subsystems: [5, 2]        # 5 доменов на уровне 0, 2 мета-системы на уровне 1
+  gra_types:                # тип GRA для каждого уровня
+    - "static"
+    - "cyclic"
+  hyperparams:
+    lambda_base: 1.0
+    alpha: 0.7              # затухание весов по уровням
+  goals:
+    global: "absolute_truth"
+    per_level:
+      - "minimize_local_disagreement"
+      - "align_meta_systems"
+
+agents:
+  use_llm: true             # false – использовать только векторные симуляции
+  backend: "openai"         # или "local" (заглушка)
+  model: "gpt-4o"
+  num_agents: 5
+  debate_rounds: 8
+  trust_update_rate: 0.1
+  truth_threshold: 0.8      # порог алетической оценки для учёта доверия
+
+dashboard:
+  port: 8501
+  live_update_seconds: 2
