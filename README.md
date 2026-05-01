@@ -1,5 +1,6 @@
 # 🌌 GRA Multiverse — Final
 ## GRA‑Multiverse — Final
+https://github.com/vm32/GR-Project
 
 **Многоуровневая GRA Мета‑обнулёнка в мультивселенной** — фреймворк для согласования иерархических систем через минимизацию «пены» (Φ).  
 **GRA Multiverse — Final** is a hierarchical **GRA Meta‑obnulёнka (Meta‑Reset)** framework operating in a multiverse, designed to reconcile complex systems by minimizing “foam” (Φ) across scales.
