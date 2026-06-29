@@ -1,3 +1,8 @@
+https://orcid.org/my-orcid?orcid=0009-0004-1872-1153
+https://doi.org/10.5281/zenodo.21018521
+------------
+
+
 Да, такая привязка по типу задач логична, и её можно чётко сформулировать.
 
 ### Когда использовать GRA-Hierarchical-Stability   https://github.com/qqewq/GRA-Hierarchical-Stability 
